@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title"> Calculadora de média</h1>
+        <p class="page-subtitle"> Descubra a média da nota final</p> 
+        <div class="calculoDasNotas">
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome"/>
+            <input type = "number" id = "primeiraNota" size="6" placeholder = "Nota do primero bimestre"/>
+            <input type = "number" id = "segundaNota" size="6" placeholder = "Nota do segundo bimestre"/>
+            <input type = "number" id = "terceiraNota" placeholder = "Nota do terceiro bimestre"/>
+            <input type = "number" id = "quartaNota" placeholder = "Nota do quarto bimestre"/><br>
+            <button type="submit" onclick="calcularNota()">Calcular nota Final</button><br>
+            <h2 id="resultadoFinal"></h2>
+            <h2 id="aprovadoOuReprovado"></h2>
+        </div>    
+    </div>
+        <a href="http:github.com/EduardoRFX" target="_blank"> <img src="img/github-logo_5.png" alt="" class="github-logo"></a>        
+
+    <script src="index.js"></script>
+</body>
+</html>

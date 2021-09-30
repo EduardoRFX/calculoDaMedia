@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto mono',monospace;
+    min-height: 400px;
+    background-image: url(img/books-g404e5ec80_1920.jpg);
+    background-color: #111;
+    background-size:100%;
+    background-position: center;
+    background-repeat:no-repeat;  
+}
+
+.container{
+    text-align:center;
+    padding: 20px;
+    height: 100vh;
+    background: #ffffff80;
+    border-radius: 8px;
+}
+
+.page-title{
+    color: #000000;
+    margin:0 0 5px;
+}
+
+.page-subtitle{
+    color: #000000;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.page-logo{
+    width: 200px;
+}
+
+.github-logo{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#resultadoFinal {
+    color: #000000;
+}
+
+button {
+    margin-top: 8px;
+    width: 95px;
+    height: 45px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow:rgb(0,4,4,0);
+    background: #B60F4B;
+}
+
+.calculoDasNotas input{
+    width: 168px;
+    height: 30px;
+    Padding: 8px, 24px, 8px, 24px;
+    background: #E8E8E8;
+    border-radius: 8px;
+}
